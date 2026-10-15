@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
 import {
   FaCanadianMapleLeaf,
@@ -131,6 +132,10 @@ export default function Home() {
         </div>
       </section>
       <Testimonials />
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <SectionTitle title="CONTACT US" />
+        <ContactForm />
+      </section>
     </>
   );
 }
