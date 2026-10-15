@@ -71,3 +71,34 @@ export const testimonials = [
     name: "Sarah Thompson",
   },
 ];
+
+export const galleryImages = [
+  { src: "/images/gallery/walkin-1.jpg", category: "Walk-in" },
+  { src: "/images/gallery/walkin-2.jpg", category: "Walk-in" },
+  { src: "/images/gallery/reachin-1.jpg", category: "Reach-in" },
+  { src: "/images/gallery/wardrobe-1.jpg", category: "Wardrobe" },
+  { src: "/images/gallery/office-1.jpg", category: "Home Office" },
+  { src: "/images/gallery/laundry-1.jpg", category: "Laundry" },
+  { src: "/images/gallery/pantry-1.jpg", category: "Pantry" },
+  { src: "/images/gallery/murphy-1.jpg", category: "Murphy Beds" },
+  { src: "/images/gallery/garage-1.jpg", category: "Garage" },
+  // add one line for every photo
+];
+
+export const closetFeatures = [
+  {
+    title: "ACCESSORIES",
+    image: "/images/closets/accessories.jpg",
+    text: "Customize your closet with accessories like pant racks, retractable valet rods, jewelry drawer inserts and more to maximize the space and stay organized.",
+  },
+  {
+    title: "FINISHES",
+    image: "/images/closets/finishes.jpg",
+    text: "Make your new closet unique by choosing between a variety of colour, drawer fronts, pulls, knobs, handles and more that meet your design taste and budget.",
+  },
+  {
+    title: "DECORATIVE HARDWARE",
+    image: "/images/closets/hardware.jpg",
+    text: "Select from a wide variety of knobs, pulls, hooks and more to add the unique finishing touch to your custom closet.",
+  },
+];

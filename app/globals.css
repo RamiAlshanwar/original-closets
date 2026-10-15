@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-navy: #1F3A5F;
-  --color-teal: #4E9C96;
-  --color-logo-teal: #1A7E8C;
-  --color-light: #E9ECF1;
-  --color-body: #5B6B7B;
+  --color-navy: #1f3a5f;
+  --color-teal: #4e9c96;
+  --color-logo-teal: #1a7e8c;
+  --color-light: #e9ecf1;
+  --color-body: #5b6b7b;
   --font-sans: var(--font-montserrat), sans-serif;
+}
+
+html {
+  color-scheme: light;
 }
 
 body {
