@@ -102,3 +102,32 @@ export const closetFeatures = [
     text: "Select from a wide variety of knobs, pulls, hooks and more to add the unique finishing touch to your custom closet.",
   },
 ];
+export const garageAreas = [
+  { title: "GARAGE CABINETS", image: "/images/garages/cabinets.jpg" },
+  { title: "WALL STORAGE", image: "/images/garages/wall-storage.jpg" },
+  { title: "WORKBENCHES", image: "/images/garages/workbench.jpg" },
+];
+
+export const garageFeatures = [
+  {
+    title: "DURABLE FINISHES",
+    image: "/images/garages/finishes.jpg",
+    text: "Choose from strong, easy-to-clean finishes and colours made to handle the cold, the heat and everyday garage use.",
+  },
+  {
+    title: "SLATWALL & ACCESSORIES",
+    image: "/images/garages/accessories.jpg",
+    text: "Hang your tools, bikes and sports gear on slatwall panels with hooks, baskets and shelves you can move anytime.",
+  },
+  {
+    title: "OVERHEAD STORAGE",
+    image: "/images/garages/overhead.jpg",
+    text: "Use the space above your car for seasonal items and boxes, and keep your floor clear and safe.",
+  },
+];
+export const livingAreas = [
+  { title: "HOME OFFICE", image: "/images/services/office.jpg" },
+  { title: "KITCHEN PANTRY", image: "/images/services/pantry.jpg" },
+  { title: "LAUNDRY ROOMS", image: "/images/services/laundry.jpg" },
+  { title: "WALL BEDS", image: "/images/services/wallbeds.jpg" },
+];
