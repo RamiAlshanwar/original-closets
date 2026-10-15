@@ -1,17 +1,38 @@
-import Image from "next/image";
+import PageHero from "@/components/PageHero";
+import SectionTitle from "@/components/SectionTitle";
+import ServiceCard from "@/components/ServiceCard";
+import CtaBand from "@/components/CtaBand";
 
 export default function Home() {
   return (
-    <main className="p-10">
-      <Image src="/logo1.png" alt="Original Closets" width={260} height={100} />
-      <h1 className="text-navy text-4xl font-semibold mt-6">
-        WHY ORIGINAL CLOSETS
-      </h1>
-      <p className="mt-4">This is body text in Montserrat.</p>
-      <button className="bg-teal text-white px-6 py-2 rounded-full mt-4">
-        CONTACT US
-      </button>
-      <div className="bg-light p-6 mt-4">Light gray section</div>
-    </main>
+    <>
+      <PageHero title="CLOSETS" image="/images/hero.jpg" />
+
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <SectionTitle
+          title="OUR SERVICES"
+          subtitle="Explore our range of solutions for a well-organized home."
+        />
+        <div className="grid gap-4 md:grid-cols-3">
+          <ServiceCard
+            title="CLOSETS"
+            image="/images/closets.jpg"
+            href="/closets"
+          />
+          <ServiceCard
+            title="CLOSETS"
+            image="/images/closets.jpg"
+            href="/closets"
+          />
+          <ServiceCard
+            title="CLOSETS"
+            image="/images/closets.jpg"
+            href="/closets"
+          />
+        </div>
+      </section>
+
+      <CtaBand />
+    </>
   );
 }
