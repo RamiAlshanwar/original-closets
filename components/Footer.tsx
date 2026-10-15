@@ -28,10 +28,10 @@ export default function Footer() {
         {/* Logo + text */}
         <div>
           <Image
-            src="/logo.png"
+            src="/logo1.png"
             alt="Original Closets"
-            width={220}
-            height={80}
+            width={240}
+            height={70}
             className="h-16 w-auto brightness-0 invert"
           />
           <p className="mt-6 leading-relaxed">

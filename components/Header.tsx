@@ -24,15 +24,28 @@ export default function Header() {
         <div className="flex justify-end items-center gap-3 pt-3 text-sm text-navy">
           <a href="tel:1111111111">(111) 111-1111</a>
           <span className="text-gray-300">|</span>
-          <Link href="/contact" className="hover:text-teal">Contact Us</Link>
-          <a href="#" aria-label="Facebook"><FaFacebookSquare size={20} /></a>
-          <a href="#" aria-label="Instagram"><FaInstagram size={20} /></a>
+          <Link href="/contact" className="hover:text-teal">
+            Contact Us
+          </Link>
+          <a href="#" aria-label="Facebook">
+            <FaFacebookSquare size={20} />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <FaInstagram size={20} />
+          </a>
         </div>
 
         {/* Logo + menu */}
         <div className="flex justify-between items-center py-3">
           <Link href="/">
-            <Image src="/logo.png" alt="Original Closets" width={220} height={80} className="h-16 w-auto" priority />
+            <Image
+              src="/logo1.png"
+              alt="Original Closets"
+              width={240}
+              height={70}
+              className="h-16 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop menu */}
@@ -51,7 +64,11 @@ export default function Header() {
           </nav>
 
           {/* Mobile button */}
-          <button className="md:hidden text-navy" onClick={() => setOpen(!open)} aria-label="Menu">
+          <button
+            className="md:hidden text-navy"
+            onClick={() => setOpen(!open)}
+            aria-label="Menu"
+          >
             {open ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
