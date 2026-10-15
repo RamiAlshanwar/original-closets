@@ -8,7 +8,8 @@ import {
   FaPalette,
   FaCog,
 } from "react-icons/fa";
-import PageHero from "@/components/PageHero";
+import HeroSlider from "@/components/HeroSlider";
+import Testimonials from "@/components/Testimonials";
 import SectionTitle from "@/components/SectionTitle";
 import CtaBand from "@/components/CtaBand";
 import ServicesSection from "@/components/ServicesSection";
@@ -49,7 +50,7 @@ export default function Home() {
   return (
     <>
       {/* Temporary hero - becomes a slider in Step 6 */}
-      <PageHero title="" image="/images/hero.jpg" />
+      <HeroSlider />
 
       {/* Why Original Closets */}
       <section className="max-w-5xl mx-auto px-4 py-12 text-center">
@@ -129,6 +130,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <Testimonials />
     </>
   );
 }

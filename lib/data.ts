@@ -44,3 +44,30 @@ export const closetTypes = [
     text: "This storage solution is flexible and goes anywhere, in the bedroom, at the entrance or even in the basement.",
   },
 ];
+
+export const heroSlides = [
+  {
+    title: "LAUNDRY ROOMS",
+    image: "/images/hero/laundry.jpg",
+    href: "/living-areas",
+  },
+  { title: "CLOSETS", image: "/images/hero/closets.jpg", href: "/closets" },
+  {
+    title: "KITCHEN PANTRY",
+    image: "/images/hero/pantry.jpg",
+    href: "/living-areas",
+  },
+  {
+    title: "GARAGE CABINETS",
+    image: "/images/hero/garage.jpg",
+    href: "/garages",
+  },
+];
+
+// Only use real reviews from the client's customers
+export const testimonials = [
+  {
+    text: "Thank you for such great service and outstanding work! Would definitely recommend!",
+    name: "Sarah Thompson",
+  },
+];
